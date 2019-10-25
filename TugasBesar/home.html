@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<head>
+    <title>KSHOW123</title>
+    <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Header -->
+    <div class = "logo">
+        <img src = "img/logo.jpg" style="float:left; width: 190px; height:52px;">
+    </div>
+</head>
+<body>
+    <!-- NavBar -->
+    <div class="topnav">
+        <a id="latest"  href="#latest">Latest</a>
+        <a id="popular" href="#popular">Popular</a>
+        <a id="rated" href="#rated">Rated</a>
+        <div class="dropdown">
+             <button class="dropbtn">Shows
+                 <i class="fa fa-caret-down"></i>
+             </button>
+             <div class="dropdown-content">
+                    <a href="#">Running Man</a>
+                    <a href="#">Knowing Brother</a>
+                    <a href="#">Produce 101 Season 2</a>
+                    <a href="#">Law of the jugle</a>
+                    <hr>
+                    <a href="#">View More</a>
+              </div>
+        </div>
+    </div>
+    <div class="search-container" style = "margin-top: -2.5%; margin-left: 37%;">
+            <form action="/action_page.php">
+              <input type="text" placeholder="Search.." name="search" >
+              <button type="submit"><i class="fa fa-search" style = "color: black;"></i></button>
+            </form>
+     </div>
+    <!-- Recent updates box -->
+     <div class = "box">
+        <i class="fa fa-refresh" aria-hidden="true" style="float:left; font-size: 28px; margin-top: -4%; margin-left: -3%; color: green;"></i>
+        <h3 style="margin-top: -4%; margin-left: 1%; color: green;">Recent Updates</h3>
+        <hr style = "width : 228px;border-color: green; margin-left: -4%">
+            <container id = "minbox" style= " height:3%; width:3%;background-color: rgb(28, 160, 28); color: white; font-size: 10px; margin-left: -4%">SUB </container>
+            <a href = "#" style = "color: green; font-size: 15px; margin-top:-1%; margin-left:1%">Happy Together S4 Ep 54</a>
+            <i class="fa fa-star-o" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:25%; font-size: 14px;">9</i>
+            <i class="fa fa-thumbs-o-up" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:8%; font-size: 14px;">13</i>
+            <i class="fa fa-download" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:8%; font-size: 14px;">0</i>
+            <i class="" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:14%; font-size: 12px;">an hour ago</i>
+            <br><br>
+            <container id = "minbox2" style= " height:3%; width:3%;background-color: rgb(28, 160, 28); color: white; font-size: 10px; margin-left:-4%;">SUB </container>
+            <a href = "#" style = "color: green; font-size: 15px; margin-top:4%; margin-left:1%">Queendom Ep 9</a>
+            <i class="fa fa-star-o" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:33.5%; font-size: 14px;">98</i>
+            <i class="fa fa-thumbs-o-up" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:7.3%; font-size: 14px;">255</i>
+            <i class="fa fa-download" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:7.3%; font-size: 14px;">0</i>
+            <i class="" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:15.7%; font-size: 12px;">5 hrs ago</i>
+            <br><br>
+            <container id = "minbox2" style= " height:3%; width:3%;background-color: rgb(28, 160, 28); color: white; font-size: 10px; margin-left:-4%;">SUB </container>
+            <a href = "#" style = "color: green; font-size: 15px; margin-top:4%; margin-left:1%">Idol Room Ep 72</a>
+            <i class="fa fa-star-o" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:33%; font-size: 14px;">841</i>
+            <i class="fa fa-thumbs-o-up" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:6.3%; font-size: 14px;">2.6k</i>
+            <i class="fa fa-download" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:7.1%; font-size: 14px;">0</i>
+            <i class="" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:15.5%; font-size: 12px;">6 hrs ago</i>
+            <br><br>
+            <container id = "minbox2" style= " height:3%; width:3%;background-color: gray; color: white; font-size: 10px; margin-left:-4%;">RAW </container>
+            <a href = "#" style = "color: green; font-size: 15px; margin-top:4%; margin-left:1%">Some Vival 1 1 Ep 16</a>
+            <i class="fa fa-star-o" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:28.3%; font-size: 14px;">8</i>
+            <i class="fa fa-thumbs-o-up" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:8%; font-size: 14px;">9</i>
+            <i class="fa fa-download" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:9.2%; font-size: 14px;">0</i>
+            <i class="" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:15.2%; font-size: 12px;">10 hrs ago</i>
+            <br><br>
+            <container id = "minbox2" style= " height:3%; width:3%;background-color: gray; color: white; font-size: 10px; margin-left:-4%;">RAW </container>
+            <a href = "#" style = "color: green; font-size: 15px; margin-top:4%; margin-left:1%">The Lord Of The Thumb Ep 352</a>
+            <i class="fa fa-star-o" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:19.3%; font-size: 14px;">0</i>
+            <i class="fa fa-thumbs-o-up" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:8%; font-size: 14px;">1</i>
+            <i class="fa fa-download" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:9.2%; font-size: 14px;">0</i>
+            <i class="" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:15.2%; font-size: 12px;">11 hrs ago</i>
+            <br><br>
+            <container id = "minbox2" style= " height:3%; width:3%;background-color: gray; color: white; font-size: 10px; margin-left:-4%;">RAW </container>
+            <a href = "#" style = "color: green; font-size: 15px; margin-top:4%; margin-left:1%">OnlyOneOf: Unlocking Love Ep 1</a>
+            <i class="fa fa-star-o" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:18.2%; font-size: 14px;">0</i>
+            <i class="fa fa-thumbs-o-up" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:8%; font-size: 14px;">8</i>
+            <i class="fa fa-download" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:9.2%; font-size: 14px;">0</i>
+            <i class="" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:15.2%; font-size: 12px;">11 hrs ago</i>
+            <br><br>
+            <container id = "minbox2" style= " height:3%; width:3%;background-color: gray; color: white; font-size: 10px; margin-left:-4%;">RAW </container>
+            <a href = "#" style = "color: green; font-size: 15px; margin-top:4%; margin-left:1%">Video Star Ep 166</a>
+            <i class="fa fa-star-o" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:31.6%; font-size: 14px;">0</i>
+            <i class="fa fa-thumbs-o-up" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:8%; font-size: 14px;">3</i>
+            <i class="fa fa-download" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:9.2%; font-size: 14px;">0</i>
+            <i class="" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:15.1%; font-size: 12px;">11 hrs ago</i>
+            <br><br>
+            <container id = "minbox2" style= " height:3%; width:3%;background-color: gray; color: white; font-size: 10px; margin-left:-4%;">RAW </container>
+            <a href = "#" style = "color: green; font-size: 15px; margin-top:4%; margin-left:1%">You Quiz On The Block S02 Ep 39</a>
+            <i class="fa fa-star-o" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:17.3%; font-size: 14px;">0</i>
+            <i class="fa fa-thumbs-o-up" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:8%; font-size: 14px;">3</i>
+            <i class="fa fa-download" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:9.2%; font-size: 14px;">0</i>
+            <i class="" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:15.1%; font-size: 12px;">11 hrs ago</i>
+           
+           <!-- Recent updates box show more -->
+           <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo" style="margin-top:-98%; margin-left:90%;
+             background-color: rgb(202, 199, 199); border: rgb(202, 199, 199); color: black;">See More ></button>
+            <div id="demo" class="collapse">
+                <div class = "box2">
+                        <container id = "minbox2" style= " height:3%; width:3%;background-color: gray; color: white; font-size: 10px; margin-left:-4%;">RAW </container>
+                        <a href = "#" style = "color: green; font-size: 15px; margin-top:4%; margin-left:1%"> Some Vival 1 1 Ep 16</a>
+                        <i class="fa fa-star-o" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:28.5%; font-size: 14px;">18</i>
+                        <i class="fa fa-thumbs-o-up" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:7.4%; font-size: 14px;">12</i>
+                        <i class="fa fa-download" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:8.2%; font-size: 14px;">0</i>
+                        <i class="" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:15.2%; font-size: 12px;">9 hrs ago</i>
+                        <br><br>
+                        <container id = "minbox2" style= " height:3%; width:3%;background-color: gray; color: white; font-size: 10px; margin-left:-4%;">RAW </container>
+                        <a href = "#" style = "color: green; font-size: 15px; margin-top:4%; margin-left:1%">OnlyOneOf: Unlocking Love Ep 2</a>
+                        <i class="fa fa-star-o" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:18.2%; font-size: 14px;">0</i>
+                        <i class="fa fa-thumbs-o-up" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:8%; font-size: 14px;">2</i>
+                        <i class="fa fa-download" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:9.2%; font-size: 14px;">0</i>
+                        <i class="" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:15.2%; font-size: 12px;">10 hrs ago</i>
+                        <br><br>
+                        <container id = "minbox2" style= " height:3%; width:3%;background-color: gray; color: white; font-size: 10px; margin-left:-4%;">RAW </container>
+                        <a href = "#" style = "color: green; font-size: 15px; margin-top:4%; margin-left:1%">OnlyOneOf: Unlocking Love Ep 3</a>
+                        <i class="fa fa-star-o" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:18.2%; font-size: 14px;">0</i>
+                        <i class="fa fa-thumbs-o-up" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:8%; font-size: 14px;">1</i>
+                        <i class="fa fa-download" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:9.2%; font-size: 14px;">0</i>
+                        <i class="" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:15.2%; font-size: 12px;">10 hrs ago</i>
+                        <br><br>
+                        <container id = "minbox2" style= " height:3%; width:3%;background-color: gray; color: white; font-size: 10px; margin-left:-4%;">RAW </container>
+                        <a href = "#" style = "color: green; font-size: 15px; margin-top:4%; margin-left:1%">Video Star Ep 166</a>
+                        <i class="fa fa-star-o" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:31.8%; font-size: 14px;">0</i>
+                        <i class="fa fa-thumbs-o-up" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:8%; font-size: 14px;">3</i>
+                        <i class="fa fa-download" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:9.2%; font-size: 14px;">0</i>
+                        <i class="" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:15.2%; font-size: 12px;">11 hrs ago</i>
+                        <br><br>
+                        <container id = "minbox2" style= " height:3%; width:3%;background-color: gray; color: white; font-size: 10px; margin-left:-4%;">RAW </container>
+                        <a href = "#" style = "color: green; font-size: 15px; margin-top:4%; margin-left:1%">The Lord Of The Thumb Ep 352</a>
+                        <i class="fa fa-star-o" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:19.5%; font-size: 14px;">0</i>
+                        <i class="fa fa-thumbs-o-up" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:8%; font-size: 14px;">1</i>
+                        <i class="fa fa-download" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:9.2%; font-size: 14px;">0</i>
+                        <i class="" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:15.2%; font-size: 12px;">11 hrs ago</i>
+                        <br><br>
+                        <container id = "minbox2" style= " height:3%; width:3%;background-color:rgb(28, 160, 28); color: white; font-size: 10px; margin-left:-4%;">SUB </container>
+                        <a href = "#" style = "color: green; font-size: 15px; margin-top:4%; margin-left:1%">Radio Star Episode 645</a>
+                        <i class="fa fa-star-o" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:27%; font-size: 14px;">0</i>
+                        <i class="fa fa-thumbs-o-up" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:8%; font-size: 14px;">1</i>
+                        <i class="fa fa-download" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:9.2%; font-size: 14px;">0</i>
+                        <i class="" aria-hidden="true" style="color: rgb(71, 65, 65); margin-left:15.2%; font-size: 12px;">14 hrs ago</i>
+                        <br><br>
+                </div>
+            </div>
+   
+        </div>
+   
+</body>
+<script>
+     
+    </script>   
+
+</html>
