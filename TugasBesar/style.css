@@ -53,11 +53,11 @@ body{
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    background-color: #ddd;
     text-align: left;
   }
   
   .dropdown-content a:hover {
-    background-color: #ddd;
   }
   .dropdown:hover .dropdown-content {
     display: block;
@@ -115,7 +115,7 @@ body{
 
   .popup .popuptext {
     visibility: hidden;
-    width: 250%;
+    width: 130%;
     height: 400px;
     background-color: #555;
     color: white;
@@ -123,6 +123,7 @@ body{
     padding: 8px 0;
     position: absolute;
     z-index: 1;
+    overflow: auto;
   }
   .popup .popuptext::after {
     content: "";
